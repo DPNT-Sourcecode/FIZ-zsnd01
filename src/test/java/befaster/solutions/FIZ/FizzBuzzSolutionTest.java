@@ -1,4 +1,4 @@
-package befaster.solutions.HLO;
+package befaster.solutions.FIZ;
 
 import befaster.solutions.SUM.SumSolution;
 import org.junit.Before;
@@ -8,18 +8,18 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.*;
 
-public class HelloSolutionTest {
+public class FizzBuzzSolutionTest {
 
-    private HelloSolution helloSolution;
+    private SumSolution sum;
 
     @Before
     public void setUp() {
 
-        helloSolution = new HelloSolution();
+        sum = new SumSolution();
     }
 
     @Test
-    public void helloTest() {
-        assertThat(helloSolution.hello("John"), equalTo("Hello, John!"));
+    public void compute_sum() {
+        assertThat(sum.compute(1, 1), equalTo(2));
     }
 }
