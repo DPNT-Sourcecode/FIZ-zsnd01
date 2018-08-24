@@ -49,6 +49,11 @@ public class FizzBuzzSolutionTest {
     }
 
     @Test
+    public void fizzBuzzHasDivide5and3Test() {
+        assertThat(solution.fizzBuzz(546), equalTo("fizz buzz"));
+    }
+
+    @Test
     public void noFizzBuzzTest() {
         assertThat(solution.fizzBuzz(29), equalTo("29"));
     }
