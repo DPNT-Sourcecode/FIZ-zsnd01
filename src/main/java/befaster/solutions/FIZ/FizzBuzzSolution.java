@@ -10,9 +10,9 @@ public class FizzBuzzSolution {
                 (number > 10 && String.valueOf(number).chars().distinct().count() == 1)) {
             return "fizz buzz deluxe";
         }
-       else if(number % 3 ==0 && String.valueOf(number).chars().distinct().count() == 1) {
+       else if(number % 3 ==0 && (number > 10 && String.valueOf(number).chars().distinct().count() == 1)) {
             return "fizz deluxe";
-        } else if(number % 5 == 0 && String.valueOf(number).chars().distinct().count() == 1) {
+        } else if(number % 5 == 0 && (number > 10 && String.valueOf(number).chars().distinct().count() == 1)) {
             return "buzz deluxe";
         }  else if(number > 10 && String.valueOf(number).chars().distinct().count() == 1) {
             return "deluxe";

@@ -65,12 +65,12 @@ public class FizzBuzzSolutionTest {
 
     @Test
     public void fizzBuzzHas5and3TestDelux() {
-        assertThat(solution.fizzBuzz(333), equalTo("deluxe"));
+        assertThat(solution.fizzBuzz(333), equalTo("fizz deluxe"));
     }
 
     @Test
     public void fizzBuzzHasDivide5and3TestDelux() {
-        assertThat(solution.fizzBuzz(888), equalTo("deluxe"));
+        assertThat(solution.fizzBuzz(44), equalTo("deluxe"));
     }
 
     @Test
