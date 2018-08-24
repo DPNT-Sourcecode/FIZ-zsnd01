@@ -20,6 +20,6 @@ public class HelloSolutionTest {
 
     @Test
     public void compute_sum() {
-        assertThat(helloSolution.hello("World"), equalTo("Hello World"));
+        assertThat(helloSolution.hello("World"), equalTo("Hello, World!"));
     }
 }
