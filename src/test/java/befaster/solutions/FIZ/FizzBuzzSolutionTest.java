@@ -24,8 +24,18 @@ public class FizzBuzzSolutionTest {
     }
 
     @Test
+    public void fizzHas3Test() {
+        assertThat(solution.fizzBuzz(23), equalTo("fizz"));
+    }
+
+    @Test
     public void buzzTest() {
         assertThat(solution.fizzBuzz(25), equalTo("buzz"));
+    }
+
+    @Test
+    public void buzzHas5Test() {
+        assertThat(solution.fizzBuzz(52), equalTo("buzz"));
     }
 
     @Test
