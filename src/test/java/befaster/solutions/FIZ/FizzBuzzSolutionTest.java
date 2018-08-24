@@ -20,17 +20,17 @@ public class FizzBuzzSolutionTest {
 
     @Test
     public void fizzTest() {
-        assertThat(solution.fizzBuzz(3), equalTo("fizz"));
+        assertThat(solution.fizzBuzz(9), equalTo("fizz"));
     }
 
     @Test
     public void buzzTest() {
-        assertThat(solution.fizzBuzz(3), equalTo("buzz"));
+        assertThat(solution.fizzBuzz(25), equalTo("buzz"));
     }
 
     @Test
     public void fizzBuzzTest() {
-        assertThat(solution.fizzBuzz(3), equalTo("fizz buzz"));
+        assertThat(solution.fizzBuzz(15), equalTo("fizz buzz"));
     }
 
     @Test
