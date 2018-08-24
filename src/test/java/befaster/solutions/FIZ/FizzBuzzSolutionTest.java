@@ -70,7 +70,7 @@ public class FizzBuzzSolutionTest {
 
     @Test
     public void fizzBuzzHasDivide5and3TestDelux() {
-        assertThat(solution.fizzBuzz(111), equalTo("deluxe"));
+        assertThat(solution.fizzBuzz(888), equalTo("deluxe"));
     }
 
     @Test
