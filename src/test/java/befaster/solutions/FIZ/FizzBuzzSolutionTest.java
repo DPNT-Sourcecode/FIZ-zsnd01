@@ -73,4 +73,19 @@ public class FizzBuzzSolutionTest {
         assertThat(solution.fizzBuzz(111), equalTo("deluxe"));
     }
 
+    @Test
+    public void fizzBuzzTestFizzDelux() {
+        assertThat(solution.fizzBuzz(33), equalTo("fizz deluxe"));
+    }
+
+    @Test
+    public void fizzBuzzTestFizzDelux1() {
+        assertThat(solution.fizzBuzz(222), equalTo("fizz deluxe"));
+    }
+
+    @Test
+    public void fizzBuzzTestFizzDelux2() {
+        assertThat(solution.fizzBuzz(777), equalTo("fizz deluxe"));
+    }
+
 }

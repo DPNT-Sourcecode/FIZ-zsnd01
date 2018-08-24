@@ -12,6 +12,10 @@ public class FizzBuzzSolution {
         }
         else if(number > 10 && String.valueOf(number).chars().distinct().count() == 1) {
             return "deluxe";
+        } else if(number % 3 ==0 && String.valueOf(number).chars().distinct().count() == 1) {
+            return "fizz";
+        } else if(number % 5 == 0 && String.valueOf(number).chars().distinct().count() == 1) {
+            return "buzz";
         }
         else if((number % 3 ==0) && (number % 5 == 0) ||
                 (String.valueOf(number).contains("3") && String.valueOf(number).contains("5"))) {
